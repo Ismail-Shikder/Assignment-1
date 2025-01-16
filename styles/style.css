@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Fira Sans", serif; 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:24px 160px;
+}
+.btn-primary{
+    padding:15px 30px;
+    color: #006A50;
+    font-size:18px;
+    border-radius: 8px;
+    border-color: #006A50;
+    border-width:1px ;
+}
+
+.nav-title{
+  font-weight: bold;
+  font-size: 32px;
+
+}
+/* main part */
+/* first div */
+.first-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 50px;
+    padding: 80px 100px;
+    background-color: #C6E4D6;
+    border-radius: 5px;
+    
+}
+h4{
+
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+    
+}
+
+.first-part p {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.btn-2nd{
+    margin-top:24px;
+    padding:17px 34px;
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+    background-color: #006A50;
+}
+
+/* 2nd div  */
+.second-div{
+    padding: 50px;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.sec-p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    gap: 30px;
+   
+}
+.card-1{
+    background-color: #74A4F7;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.card-2{
+    background-color: #C6E4D6;
+    padding: 32px;
+    border-radius: 16px;
+
+}
+
+.card-3{
+    background-color: #F7EBCF;
+    padding: 32px;
+    border-radius: 16px;
+}
+.card-txt{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.card-p{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px;
+}
+
+.card-btn{
+    padding: 11px 22px;
+    border-radius: 8px;
+    background-color: #00f3b6;
+    border-style: none;
+    color: white;
+
+}
+
+
+/* 3rd-div */
+.news-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 50px;
+}
+.news-p{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px 50px;
+}
+
+
+.first-news{
+    display: flex;
+    margin: 20px 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.news-img{
+    border-radius: 24px;
+}
+.date{
+    padding: 5px;
+}
+.description{
+    padding: 5px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.news-btn{
+    padding: 13px 26px;
+    background-color:#006A50 ;
+    color:white;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 10px;
+}
+
+.second-news{
+    display: flex;
+    margin: 20px 50px;
+    align-items: center;
+    gap: 20px;
+}
+.fourth-div{
+    text-align: center;
+    margin:24px 160px
+    
+}
+.last-title{
+    text-align:center;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.last-title p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B7B7B7;
+    
+    
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+ul li {
+    list-style: none;
+
+}
+
+ul li p {
+    font-size: 40px;
+    font-weight: bold;
+    color: #B7B7B7;
+    padding: 40px 40px;
+}
+.color-dimu{
+    background-color: #C6E4D6;
+    border-radius: 16px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width:500px; 
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.donat-btn{
+    margin: 15px;
+    padding: 17px 34px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+}
+
+
+/* footer */
+
+.last-div{
+    margin-top: 10px;
+    text-align: center ;
+    
+}
+.soci-link img{
+    padding: 10px;
+}
+
